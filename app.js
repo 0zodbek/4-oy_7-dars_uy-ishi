@@ -70,6 +70,7 @@
 //   }
 // }
 // balnichiqar();
+
 // 3-masala
 // function vaqtnikiriting() {
 //   let t = +prompt("vaqtni kiriting 1 dan 24 gacha;");
@@ -86,32 +87,53 @@
 //       case t > 21 && t <= 24 || 0 < t && t <= 5 :
 //       alert("xayrli tun");
 //       break;
-      
+
 //     default:
 //       break;
 //   }
 // }
 // vaqtnikiriting();
+
 // 4-masala
-
-
-
-
-
-
-
-
-
+// let = prompt(
+//   "Foydalanuvchi togri raqam kiritmaguncha raqam kiritishni soraydigan funksiya tuzing"
+// );
+// function togriRaqam() {
+//   while (true) {
+//     let raqam = prompt("Raqam kiriting");
+//     if (raqam > 0 && raqam < 10 && raqam !== "") {
+//       alert("Siz kiritgan raqam ${raqam}");
+//     } else {
+//       alert("Xatolik bo'ldi");
+//     }
+//   }
+// }
+// togriRaqam();
 
 // 5-masala // 0 dan n gacha sonlarni juftlarini ekranga chiqarish
-function sonkirit(params) {
-  let n = +prompt("n ni kiriting;");
-  let i = 1
-  while ( i <= n ) {
-    if(i % 2 == 0 ){
-    console.log(i);
-    }
-    i++
-  }
-}
-sonkirit();
+// function sonkirit() {
+//   let n = +prompt("n ni kiriting;");
+//   let i = 1
+//   while ( i <= n ) {
+//     if(i % 2 == 0 ){
+//     console.log(i);
+//     }
+//     i++
+//   }
+// }
+// sonkirit();
+
+// 6-masala
+// let soz = prompt("stop sozini kiriting;");
+// function togrisoz() {
+//   while (true) {
+//     if (soz.toLowerCase() == "stop") {
+//       alert("siz stop sozini topdingiz;");
+//     }else{
+//     soz = prompt("stop sozini kiriting;");
+//     }
+//   }
+// }
+// togrisoz();
+
+// 7-masala
